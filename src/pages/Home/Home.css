@@ -1,0 +1,212 @@
+@import url(../../common/common.css);
+
+.top-block {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    left: 0px;
+    top: 0px;
+    background: var(--invisible-gray);
+}
+
+.hero-image {
+    /* Rectangle 247 */
+    position: relative;
+    background: #d9d9d9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 22px;
+    margin-top: 50px;
+}
+
+.holder .home-title {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.holder .home-project-title {
+    width: 100%;
+    /* left: 290px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #aba99c;
+}
+
+.button {
+    /* Rectangle 2 */
+    height: 60px;
+    background: #DB4C44;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 19px 30px;
+    box-sizing: border-box;
+    margin: 25px auto;
+    display: inline-block;
+}
+
+
+/* «Լրատուն» նախագծի մասին */
+.home-links-first {
+    position: absolute;
+    height: 35px;
+    left: 71px;
+    top: 650px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.home-links-second {
+    position: absolute;
+    height: 35px;
+    left: 71px;
+    top: 680px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.lratun-logo {
+    position: absolute;
+    width: 127px;
+    height: 65px;
+    left: 970px;
+    top: 660px;
+}
+
+.mic-logo {
+    position: absolute;
+    width: 151px;
+    height: 77px;
+    left: 1178px;
+    top: 655px;
+}
+
+.about-holder,
+.team-holder {
+    position: absolute;
+    width: 1013px;
+    height: 561px;
+    left: 188px;
+    top: 100px;
+
+    background: #FCFCFC;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 22px;
+
+}
+
+
+.about-holder {
+    top: 50px;
+    width: 880px;
+    left: 230px;
+    height: 630px;
+}
+
+.about-image {
+    height: 350px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 25px 25px 0 0;
+}
+
+
+.about-info-holder {
+    padding: 20px 25px;
+}
+
+.about-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 25px;
+
+}
+
+.about-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ABA99C;
+    overflow-y: auto;
+    height: 145px;
+    scrollbar-color: rebeccapurple green;
+}
+
+.about-close,
+.team-close {
+    position: absolute;
+    right: -25px;
+    top: -25px
+}
+
+.team-holder {
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.team-info-holder {
+    padding: 66px 0px 5px 65px;
+}
+
+.team-member {
+    width: 50%;
+    display: inline-block;
+}
+
+.team-member-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.team-member-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    letter-spacing: 0.13em;
+    color: #ABA99C;
+    margin-bottom: 15px;
+}
+
+.home-links-active {
+    text-decoration: underline red;
+}
+
+.about-text-text {
+    margin-bottom: 5px;
+}

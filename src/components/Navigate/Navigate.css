@@ -1,0 +1,27 @@
+/* vector */
+.navigator img {
+    position: absolute;
+    width: 11px;
+    height: 20px;
+    left: 40px;
+    top: 24px;
+    opacity: 0.8;
+}
+
+.navigator .navigator-link {
+    /* վերադարձ */
+
+    position: absolute;
+    width: 139px;
+    height: 27px;
+    left: 72px;
+    top: 21px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+
+    color: #ABA99C;
+
+}

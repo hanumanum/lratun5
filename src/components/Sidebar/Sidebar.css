@@ -1,0 +1,63 @@
+.content-sidbar {
+    /* Rectangle 5 */
+
+    position: absolute;
+    width: 302px;
+    height: 760px;
+    left: 1310px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    box-sizing: border-box;
+
+}
+
+.content-sidbar-title {
+    /* Rectangle 5 */
+    font-size: 25px;
+
+}
+
+.content-highlited-menu {
+    margin-bottom: 32px;
+}
+
+.content-highlited-menu li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A3A3A3;
+    list-style: none;
+    margin-top: 32px
+}
+
+.content-highlited-menu li.active {
+    /* ֆոտոռեպորտաժներ */
+    color: #000000;
+    border-left: 4px solid #DB4C44;
+    padding-left: 9px;
+    margin-left: -10px;
+
+}
+
+.content-normal-menu li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    list-style: none;
+    border-top: solid 3px rgb(163, 163, 163, .2);
+    padding: 26px 0;
+}
+
+.content-normal-menu li.active {
+    color: #000000;
+    border-left: 4px solid #DB4C44;
+    padding-left: 9px;
+    margin-left: -10px;
+}

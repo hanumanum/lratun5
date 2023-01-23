@@ -1,0 +1,62 @@
+{
+    "title": "Portrait oriented scans",
+    "highlitedMenuItems": [
+        {
+            "title": "newspaper scans",
+            "items": [
+                {
+                    "title": "Scrollable in fullscreen mode 1",
+                    "text": "8 apr, 2016",
+                    "componentType": "image-scrollable",
+                    "url": "https://loremflickr.com/800/1800/newspaper, scan"
+                },
+                {
+                    "title": "Scrollable in fullscreen mode 2",
+                    "text": "5 apr, 2020",
+                    "componentType": "image-scrollable",
+                    "url": "https://loremflickr.com/800/1820/newspaper,scan"
+                },
+                {
+                    "title": "Scrollable in fullscreen mode 3",
+                    "text": "1 oct, 2020",
+                    "componentType": "image-scrollable",
+                    "url": "https://loremflickr.com/900/1820/newspaper,scan"
+                },
+                {
+                    "title": "Scrollable in fullscreen mode 3",
+                    "componentType": "image-scrollable",
+                    "url": "https://loremflickr.com/900/2000/newspaper,scan"
+                }
+            ]
+        },
+        {
+            "title": "newspaper scans 2",
+            "items": [
+                {
+                    "title": "Scrollable in fullscreen",
+                    "text": "8 apr, 2016",
+                    "componentType": "image-scrollable",
+                    "url": "https://loremflickr.com/800/1900/newspaper,scan"
+                },
+                {
+                    "title": "Scrollable in fullscreen mode 2",
+                    "text": "5 apr, 2020",
+                    "componentType": "image-scrollable",
+                    "url": "https://loremflickr.com/800/1930/newspaper,scan"
+                },
+                {
+                    "title": "Scrollable in fullscreen mode 3",
+                    "text": "1 oct, 2020",
+                    "componentType": "image-scrollable",
+                    "url": "https://loremflickr.com/900/2000/newspaper,scan"
+                },
+                {
+                    "title": "Scrollable in fullscreen mode 3",
+                    "componentType": "image-scrollable",
+                    "url": "https://loremflickr.com/900/3000/newspaper,scan"
+                }
+            ]
+        }
+    ],
+    "normallMenuItems": []
+}

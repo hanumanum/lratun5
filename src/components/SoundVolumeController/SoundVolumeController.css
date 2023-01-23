@@ -1,0 +1,19 @@
+.sound-holder {
+    display: inline-block;
+    width: 15%;
+    margin-left:22px;
+}
+
+.sound-progress-bar {
+    width: 200px;
+    height: 3px;
+    background: #ABA99C;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sound-progress-bar div {
+    background: #DB4C44;
+    height: 3px;
+    width: 10px;
+}

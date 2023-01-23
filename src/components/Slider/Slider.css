@@ -1,0 +1,146 @@
+.slider-holder {
+    width: 80%;
+    /* margin: 0 auto; */
+    position: relative;
+    top: 70px;
+    left: 36px;
+}
+
+.go-prev {
+    position: absolute;
+    top: 200px;
+    left: -25px;
+}
+
+.go-next {
+    position: absolute;
+    top: 200px;
+    right: -25px;
+}
+
+.slide {
+    width: 100%;
+    margin: 0 auto;    display: none;
+    background-color: #070519;
+    border-radius: 22px;
+
+}
+
+
+.slider-image-holder{
+    /* Rectangle 1 */
+    width: 650px;
+    height: 440px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+
+.slide img {
+    /* width: 100%; */
+    border-radius: 22px;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slider-dots-holder {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.slider-dot {
+    border-radius: 50%;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: var(--invisible-gray);
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.slider-dot.active {
+    width: 12px;
+    height: 12px;
+    background-color: #DB4C44;
+}
+
+.slider-info-holder {
+    /* Rectangle 6 */
+    background: #FCFCFC;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 22px;
+    margin-top: 0px;
+}
+
+.slider-info {
+    display: none;
+}
+
+.slider-info.active {
+    display: block;
+}
+
+.slider-info-title {
+    /* Ազգ, հունիսի 1, 1991, #31 */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+    padding: 15px 25px;
+}
+
+.slider-info-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ABA99C;
+    padding: 0px 25px 25px 25px;
+    max-height: 90px;
+    overflow-y: auto;
+}
+
+.slider-extend-button{
+    position: absolute;
+    right: 8px;
+    top: 390px;
+    width: 38px;
+}
+
+.slider-close-button{
+    position: absolute;
+    width: 40px;
+    top: -20px;
+    right: -20px;
+}
+
+
+
+.slider-scrollable-image-holder{
+    /* Rectangle 1 */
+    width: 650px;
+    height: 440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.scrollable-image{
+    height: 440px;
+    border-radius: 0px !important;
+}
+
+.contenet-full-screened .slider-scrollable-image-holder{
+    width: 800px;
+    height: 615px !important;
+    overflow-y: auto;
+}
+
+.contenet-full-screened .scrollable-image{
+    width: 100%;
+    height: auto;
+}

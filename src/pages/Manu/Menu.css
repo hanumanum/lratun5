@@ -1,0 +1,53 @@
+@import url(../../common/common.css);
+
+.menu-holder {
+    /* Rectangle 251 */
+    margin-top: 100px;
+    height: 604px;
+    background: var(--invisible-gray);/*#e7e9eb*/
+
+}
+
+.category-badges-holder {
+    /* Rectangle 5 */
+    width: 80%;
+    margin: 20px 0 0 230px;
+}
+
+.category-badge {
+    /* Rectangle 5 */
+    width: 409px;
+    height: 230px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 22px;
+    float: left;
+    margin: 25px;
+}
+
+.category-badge img {
+    position: relative;
+    left: -40px;
+    top: 59px;
+}
+
+.category-badge h3 {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: inline-block;
+    color: #000000;
+}
+
+.category-badge-line {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    border-left: #A3A3A3 solid 3px;
+    height: 97px;
+    top: 61px;
+}

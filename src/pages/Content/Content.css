@@ -1,0 +1,32 @@
+@import url(../../common/common.css);
+
+.contenet {
+    /* Rectangle 250 */
+    width: 1014px;
+    height: 760px;
+
+    background: var(--invisible-gray);
+    text-align: initial;
+}
+
+.contenet-full-screened {
+    width: 100%;
+}
+
+
+.contenet-full-screened  video {
+    height: 530px !important;
+}
+
+.contenet-full-screened .go-next, .contenet-full-screened .go-prev{
+    top:247px !important;
+}
+
+.contenet-full-screened .video-player-full-screen{
+    display: none;
+}
+
+.contenet-full-screened .slider-image-holder{
+    width:100% !important;
+    height: 615px !important;
+}

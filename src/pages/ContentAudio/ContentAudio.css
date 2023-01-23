@@ -1,0 +1,94 @@
+.content {
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    left: 0px;
+    top: 0px;
+    background: white;
+}
+
+.content-bottom {
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    left: 0px;
+    top: 300px;
+    background: var(--invisible-gray);
+}
+
+.content-audio-badges-holder {
+    position: absolute;
+    height: 549px;
+    top: 80px;
+    /*border: solid 2px gray;*/
+    z-index: 2;
+    left: 60px;
+    right: 60px;
+}
+
+
+.content-audio-badge {
+    width: 288px;
+    height: 549px;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 22px;
+    padding: 43px 33px 33px 33px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 8px;
+    text-align: center;
+}
+
+.content-audio-badge-image {
+    width: 235px;
+    height: 240px;
+    background: rgb(83, 82, 84, .4);
+    border-radius: 22px;
+    margin-bottom: 15px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-audio-badge-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.content-audio-badge-container{
+    float: left;
+    margin-left: 5px;
+}
+
+.content-audio-badge-text {
+    /* «Տպավորություններ Ղարաբաղից» 1 */
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ABA99C;
+    margin-bottom: 15px;
+    height: 80px;
+}
+
+.content-audio-badge-date {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #DB4C44;
+    margin-bottom: 15px;
+}
+
+.content-popup-overlay-close{
+    margin: 25px auto;
+    display: inherit;
+    width: 45px;
+}

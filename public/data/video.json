@@ -1,0 +1,25 @@
+{
+    "title": "Video gallery",
+    "normallMenuItems": [],
+    "highlitedMenuItems": [
+        {
+            "title": "Free videos found",
+            "items": [
+                {
+                    "title": "Trolley Troubles Remix",
+                    "text": "Video by Walt Disney. Excerpt from Oswald the Lucky Rabbit in Trolley Troubles (1927).",
+                    "componentType": "video",
+                    "thumbnailUrl":"https://ia904707.us.archive.org/27/items/sherlock-holmes-guide_202301/sherlock-holmes-guide_202301.thumbs%2FIMG_5780_000057.jpg",
+                    "url": "https://ia904704.us.archive.org/10/items/trolley-troubles-remix/Trolley%20Troubles%20remix.mp4"
+                },
+                {
+                    "title": "The Sherlock Holmes Guide To Memorization",
+                    "text": "Sleuthing the Public Domain — A pastiche on silent films from the 20's, The Sherlock Holmes Guide To Memorization celebrates knowledge and the archive that stores it.",
+                    "componentType": "video",
+                    "thumbnailUrl":"",
+                    "url": "https://ia904707.us.archive.org/27/items/sherlock-holmes-guide_202301/IMG_5780.mp4"
+                }
+            ]
+        }
+   ]
+}
