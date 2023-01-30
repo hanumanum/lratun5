@@ -1,0 +1,9 @@
+web:
+  image: nginx
+  volumes:
+   - ./build:/usr/share/nginx/html
+  ports:
+   - "9090:80"
+  environment:
+   - NGINX_HOST=lratun5.am
+   - NGINX_PORT=80

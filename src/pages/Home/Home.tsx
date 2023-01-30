@@ -78,7 +78,7 @@ const Team = ({ closePopup }: any) => {
     }
   ]
 
-
+  
 
   return (<div className="overlay">
     <div className="team-holder">
