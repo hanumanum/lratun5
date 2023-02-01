@@ -37,8 +37,8 @@ const menuData = {
 export const CategoryBadge = ({ data }: any) => {
   return (
     <Link to={data.slug}>
-      <div className={ "category-badge " + "bagde"+data.slug }>
-        <img src={data.iconUrl} />
+      <div className={ `category-badge bagde ${data.slug}` }>
+        <img  alt="" src={data.iconUrl} />
         <div className="category-badge-line"/>
         <h3>{data.name}</h3>
       </div>

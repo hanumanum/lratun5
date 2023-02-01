@@ -23,7 +23,7 @@ export const Sidebar = (props: slidersData) => {
         setIsTopMenuSelected(true)
     }
 
-    const { currentSlider, setCurrentSlider } = useContext(SliderContext)
+    const { setCurrentSlider } = useContext(SliderContext)
 
     const choooseNormal = (e: React.MouseEvent<HTMLLIElement>) => {
         const indexStr = e.currentTarget.getAttribute("data-index")

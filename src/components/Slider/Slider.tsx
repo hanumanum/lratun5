@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import arrowLeft from './assets/arrow-left.svg'
 import arrowRight from './assets/arrow-right.svg'
 import extendButton from './assets/extend.svg'
@@ -28,17 +28,6 @@ const SlideScrollableImageComponent = (props: TypeSliderImageData) => {
 }
 
 const SlideImageComponent = (props: TypeSliderImageData) => {
-
-    /*
-    useEffect(()=>{
-        //Preload Image
-        const img = new Image();
-        img.src = props.nextUrl;
-        
-        return ()=>{}
-    }, [props])
-    */
-
     return (
         <div className="slider-image-holder" style={{ backgroundImage: `url(${props.url})` }}></div>
     );
@@ -69,23 +58,25 @@ export const Slider = ({ slidesData, fullScreenData }: any) => {
     const goNext = () => setCurrentIndex(currentIndex === length - 1 ? 0 : currentIndex + 1)
     const goPrev = () => setCurrentIndex(currentIndex === 0 ? length - 1 : currentIndex - 1);
 
+
     const chooseComponent = (v: any) => {
         if (v.componentType === "image") return <SlideImageComponent url={v.url} toggleFullScreen={toggleFullScreen} />
         if (v.componentType === "video") return <SlideVideoComponent url={v.url} tumbnailUrl={v.tumbnailUrl} title={v.title} text={v.text} toggleFullScreen={toggleFullScreen} />
         if (v.componentType === "image-scrollable") return <SlideScrollableImageComponent url={v.url} toggleFullScreen={toggleFullScreen} />
     }
 
+    const currentSlide = slides[currentIndex];
+
     return <section className="slider-holder">
-        {length !== 1 && <img alt="" src={arrowLeft} className="go-prev" onClick={goPrev} />}
-        {length !== 1 && <img alt="" src={arrowRight} className="go-next" onClick={goNext} />}
+        {length !== 1 && <img alt="" src={arrowLeft} className="go-prev" onClick={goNext} />}
+        {length !== 1 && <img alt="" src={arrowRight} className="go-next" onClick={goPrev} />}
         {isFullScreen && <img alt="" src={closeButton} className="slider-close-button" onClick={toggleFullScreen} />}
-        {slides?.map((v: any, i: number) =>
-            (i === currentIndex) &&
-            <div key={`image-slide-holder${i}`}>
-                <div key={`image-slide-${i}`} className="slide active">{chooseComponent(v)}</div>
-                {(!isFullScreen && ["image", "image-scrollable"].includes(v.componentType)) && <img alt="" src={extendButton} className="slider-extend-button" onClick={toggleFullScreen} />}
+        {
+            <div key={`image-slide-holder${currentIndex}`}>
+                <div key={`image-slide-${currentIndex}`} className="slide active">{chooseComponent(currentSlide)}</div>
+                {(!isFullScreen && ["image", "image-scrollable"].includes(currentSlide.componentType)) && <img alt="" src={extendButton} className="slider-extend-button" onClick={toggleFullScreen} />}
             </div>
-        )}
+        }
         <div className="slider-dots-holder">
             {slides?.map((v: any, i: number) => <div key={`dot${i}`} className={(i === currentIndex) ? "slider-dot active" : "slider-dot"}></div>)}
         </div>
